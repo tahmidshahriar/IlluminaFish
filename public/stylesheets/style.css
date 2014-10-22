@@ -1,0 +1,31 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpf1/v/t35.0-12/s2048x2048/10744085_10204729630462310_1422072878_o.jpg?oh=7863bca2cf6882163d6191f0d5ab86cc&oe=5446476B&__gda__=1413884111_496ed96444125146b303e43d1539adf6')
+ }
+h1 {
+    text-align: center;
+    font: 20px;
+
+  }
+p {
+    text-align: center;
+    font: 18px bold;
+
+  }
+
+form {
+	text-align: center;
+  font: 30px bold;
+}
+
+a {
+  color: #00B7FF;
+}
+
+h2 {
+	text-align: center;
+	position: relative;
+	left: 10px;
+	right: 10px;
+}

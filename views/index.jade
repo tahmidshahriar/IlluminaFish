@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  h1= "Its pretty obvious that the fish that plays Pokemon plays other games too."
+
+  h1= "The game of life. Your life. And everyone else's. Because, Illuminati fish."
+  
+  <p>
+
+  p Your life now hangs in the hands of one of Earth's mightiest heroes. Choose your champion!
+  p The Rock. Toilet Paper. Scizor.
+
+  p For Freedom.
+
+
+  p
+  form#formPlay(name="rock",method="post",action="/rock")
+        button#btnRock(type="submit") The Rock
+
+  p
+  form#formPlay(name="paper",method="post",action="/paper")
+        button#btnPaper(type="submit") Toilet Paper
+  
+  p
+  form#formPlay(name="scissor",method="post",action="/scissor")
+        button#btnScissor(type="submit") Scizor
+  </p>
+

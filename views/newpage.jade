@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  h2= result
+  h2= option
+
+  p Click below for another round! 
+  form#formPlay(name="replay",method="post",action="/playagain")
+        button#btnReplay(type="Replay") Replay
